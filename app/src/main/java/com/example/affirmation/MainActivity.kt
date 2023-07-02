@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun AffirmationCard (affirmation: Affirmation, modifier: Modifier){
+fun AffirmationCard (affirmation: Affirmation, modifier: Modifier = Modifier){
     Card(modifier = Modifier) {
         Column {
             Image(
@@ -66,6 +66,6 @@ fun AffirmationCard (affirmation: Affirmation, modifier: Modifier){
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
-
+fun AffirmationCardPreview() {
+    AffirmationCard(Affirmation(R.string.affirmation1, R.drawable.image1))
 }
