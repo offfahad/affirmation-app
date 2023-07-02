@@ -2,6 +2,8 @@
 
 Solution code for the Android Basics with Compose: Affirmations app.
 
+![resize-16882912541715956459affirmation](https://github.com/offfahad/affirmation-app-jetpack-compose/assets/19569802/379d2014-4983-4163-8057-9b07528e2790)
+
 ## Introduction
 The Affirmations app contains a scrollable list of 10 cards.
 
